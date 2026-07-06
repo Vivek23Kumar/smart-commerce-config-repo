@@ -6,7 +6,7 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/order_db
     username: postgres
-    password: YOUR_PASSWORD
+    password: Vivek@23092000
 
   jpa:
     hibernate:
