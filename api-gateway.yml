@@ -6,7 +6,7 @@ spring:
     name: api-gateway
 
 jwt:
-  secret: YOUR_SECRET_KEY
+  secret: 9b59328529ad57254d2b08a7aac71c832b49320414cd940ca7d83078420b4eb4
 
 eureka:
   client:
