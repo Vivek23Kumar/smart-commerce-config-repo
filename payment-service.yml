@@ -2,6 +2,8 @@ server:
   port: 8086
 
 spring:
+  application:
+    name: payment-service
 
   datasource:
     url: jdbc:postgresql://localhost:5432/payment_db
@@ -20,6 +22,9 @@ spring:
 
   kafka:
     bootstrap-servers: localhost:9092
+    consumer:
+      group-id: payment-group
+      auto-offset-reset: earliest
 
 eureka:
   client:
